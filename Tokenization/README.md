@@ -1,4 +1,5 @@
-`Tokenization` is the process of breaking down text into smaller units, called tokens, which can be words, subwords, characters, or other meaningful chunks. Tokenization is a foundational step in Natural Language Processing (NLP) tasks, enabling models to process and analyze text efficiently.
+## Tokenization
+Tokenization is the process of breaking down text into smaller units, called tokens, which can be words, subwords, characters, or other meaningful chunks. Tokenization is a foundational step in Natural Language Processing (NLP) tasks, enabling models to process and analyze text efficiently.
 
 ## Types of Tokenization
 `Word Tokenization`
