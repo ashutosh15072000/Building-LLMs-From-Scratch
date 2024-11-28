@@ -6,7 +6,9 @@ Tokenization is the process of breaking down text into smaller units, called tok
 - Splits text into individual words based on spaces and punctuation.
 
 `Example:`
+
 Input: "Natural Language Processing is amazing!"
+
 Tokens: ["Natural", "Language", "Processing", "is", "amazing", "!"]
 
 ## Subword Tokenization
@@ -17,17 +19,23 @@ Tokens: ["Natural", "Language", "Processing", "is", "amazing", "!"]
 `Example:`
 
 Input: "unbelievable"
+
 Tokens: ["un", "##believ", "##able"] (using WordPiece, common in models like BERT)
 
 ## Character Tokenization
 - Treats each character as a token.
 
 `Example:`
+
 Input: "AI"
+
 Tokens: ["A", "I"]
+
 ## Sentence Tokenization
 - Splits text into sentences. Common in tasks requiring sentence-level understanding.
 
 `Example:`
+
 Input: "I love NLP. It's fascinating!"
+
 Tokens: ["I love NLP.", "It's fascinating!"]
